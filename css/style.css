@@ -40,11 +40,19 @@ body
     width: 50%;
 
     background-color: rgb(255, 194, 80);
+}
+
+.door_left_move
+{
+    height: 100%;
+    width: 50%;
+
+    background-color: rgb(255, 194, 80);
 
     animation-name: closing_left;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-}    
+}
 
 .door_right
 {
@@ -55,7 +63,17 @@ body
     width: 50%;
 
     background-color: rgb(255, 86, 80);
+}    
 
+.door_right_move
+{
+    position: absolute;
+    right: 0px;
+
+    height: 100%;
+    width: 50%;
+
+    background-color: rgb(255, 86, 80);
 
     animation-name: closing_right;
     animation-duration: 1s;
