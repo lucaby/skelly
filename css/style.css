@@ -1,0 +1,29 @@
+body
+{
+    margin: 0;
+}
+
+@keyframes closing
+{
+    from {width: 50%;}
+    to {width: 0%;}
+}
+
+.title 
+{
+    height: 100vh;
+    width: 50%;
+
+    /*center text on screen*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40pt;
+    background-color: rgb(255, 194, 80);
+
+    animation-name: closing;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}    
