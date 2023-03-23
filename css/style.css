@@ -5,7 +5,7 @@ body
 
 @keyframes closing_left
 {
-    from {width: 100%;}
+    from {width: 50%;}
     to {width: 0%;}
 }
 
@@ -41,9 +41,9 @@ body
 
     background-color: rgb(255, 194, 80);
 
-    /* animation-name: closing_left;
+    animation-name: closing_left;
     animation-duration: 1s;
-    animation-fill-mode: forwards; */
+    animation-fill-mode: forwards;
 }    
 
 .door_right
@@ -57,7 +57,45 @@ body
     background-color: rgb(255, 86, 80);
 
 
-    /* animation-name: closing_right;
+    animation-name: closing_right;
     animation-duration: 1s;
-    animation-fill-mode: forwards; */
+    animation-fill-mode: forwards;
 }    
+
+.seal-button
+{
+    position: absolute;
+    top: 50%;
+    right: 47.1%;
+
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: grey;
+}
+
+@keyframes seal-button-expand
+{
+    from {height: 100px; width: 100px;}
+    to {height: 150px; width: 150px;}
+}
+
+@keyframes seal-button-shrink
+{
+    from {height: 150px; width: 150px;}
+    to {height: 100px; width: 100px;}
+}
+
+.seal-button:hover
+{
+    animation-name: seal-button-expand;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.seal-button:not(:hover)
+{
+    animation-name: seal-button-shrink;
+    animation-duration: .5s;
+    animation-fill-mode: backwards;
+}
