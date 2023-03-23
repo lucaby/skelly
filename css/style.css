@@ -3,27 +3,61 @@ body
     margin: 0;
 }
 
-@keyframes closing
+@keyframes closing_left
+{
+    from {width: 100%;}
+    to {width: 0%;}
+}
+
+@keyframes closing_right
 {
     from {width: 50%;}
     to {width: 0%;}
 }
 
-.title 
+.title
 {
-    height: 100vh;
-    width: 50%;
-
-    /*center text on screen*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40pt;
+    background-color: transparent;
+}
+
+.doors
+{
+    display: flex;
+    position: relative;
+    height: 100vh;
+}
+
+.door_left
+{
+    height: 100%;
+    width: 50%;
+
     background-color: rgb(255, 194, 80);
 
-    animation-name: closing;
+    /* animation-name: closing_left;
     animation-duration: 1s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
+}    
+
+.door_right
+{
+    position: absolute;
+    right: 0px;
+
+    height: 100%;
+    width: 50%;
+
+    background-color: rgb(255, 86, 80);
+
+
+    /* animation-name: closing_right;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; */
 }    
