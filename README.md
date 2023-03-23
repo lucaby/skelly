@@ -1,2 +1,2 @@
 # skelly
-A web portfolio design
+A creative web portfolio design
