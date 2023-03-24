@@ -32,9 +32,7 @@
 
     background-color: rgb(255, 194, 80);
 
-    animation-name: closing_left;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+    animation: closing_left 1s forwards;
 }
 
 .door-right
@@ -58,7 +56,5 @@
 
     background-color: rgb(255, 194, 80);
 
-    animation-name: closing_right;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+    animation: closing_right 1s forwards;
 }
