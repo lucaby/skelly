@@ -45,7 +45,7 @@
     height: 100%;
     width: 50%;
 
-    background-color: rgb(255, 86, 80);
+    background-color: rgb(255, 194, 80);
 }    
 
 .door-right-move
@@ -56,7 +56,7 @@
     height: 100%;
     width: 50%;
 
-    background-color: rgb(255, 86, 80);
+    background-color: rgb(255, 194, 80);
 
     animation-name: closing_right;
     animation-duration: 1s;
