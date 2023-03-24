@@ -1,5 +1,7 @@
 function seal_click()
 {
-    document.getElementsByClassName("door_left")[0].className = "door_left_move"
-    document.getElementsByClassName("door_right")[0].className = "door_right_move"
+    document.getElementsByClassName("door-left")[0].className = "door-left-move"
+    document.getElementsByClassName("door-right")[0].className = "door-right-move"
+    document.getElementsByClassName("seal-button")[0].className = "seal-button-fade"
+    document.getElementsByClassName("title")[0].className = "title-fade"
 }

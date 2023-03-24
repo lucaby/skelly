@@ -27,6 +27,28 @@ body
     background-color: transparent;
 }
 
+.title-fade
+{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40pt;
+    background-color: transparent;
+
+    animation-name: title-fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes title-fade
+{
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+}
+
 .doors
 {
     display: flex;
@@ -34,7 +56,7 @@ body
     height: 100vh;
 }
 
-.door_left
+.door-left
 {
     height: 100%;
     width: 50%;
@@ -42,7 +64,7 @@ body
     background-color: rgb(255, 194, 80);
 }
 
-.door_left_move
+.door-left-move
 {
     height: 100%;
     width: 50%;
@@ -54,7 +76,7 @@ body
     animation-fill-mode: forwards;
 }
 
-.door_right
+.door-right
 {
     position: absolute;
     right: 0px;
@@ -65,7 +87,7 @@ body
     background-color: rgb(255, 86, 80);
 }    
 
-.door_right_move
+.door-right-move
 {
     position: absolute;
     right: 0px;
@@ -90,6 +112,28 @@ body
     width: 100px;
     border-radius: 100%;
     background-color: grey;
+}
+
+.seal-button-fade
+{
+    position: absolute;
+    top: 50%;
+    right: 47.1%;
+
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: grey;
+
+    animation-name: seal-button-fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes seal-button-fade
+{
+    from {opacity: 100%;}
+    to {opacity: 0%;}
 }
 
 @keyframes seal-button-expand
@@ -117,3 +161,4 @@ body
     animation-duration: .5s;
     animation-fill-mode: backwards;
 }
+
