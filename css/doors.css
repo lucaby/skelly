@@ -1,0 +1,64 @@
+@keyframes closing_left
+{
+    from {width: 50%;}
+    to {width: 0%;}
+}
+
+@keyframes closing_right
+{
+    from {width: 50%;}
+    to {width: 0%;}
+}
+
+.doors
+{
+    display: flex;
+    position: relative;
+    height: 100vh;
+}
+
+.door-left
+{
+    height: 100%;
+    width: 50%;
+
+    background-color: rgb(255, 194, 80);
+}
+
+.door-left-move
+{
+    height: 100%;
+    width: 50%;
+
+    background-color: rgb(255, 194, 80);
+
+    animation-name: closing_left;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.door-right
+{
+    position: absolute;
+    right: 0px;
+
+    height: 100%;
+    width: 50%;
+
+    background-color: rgb(255, 86, 80);
+}    
+
+.door-right-move
+{
+    position: absolute;
+    right: 0px;
+
+    height: 100%;
+    width: 50%;
+
+    background-color: rgb(255, 86, 80);
+
+    animation-name: closing_right;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}

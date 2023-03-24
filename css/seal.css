@@ -1,0 +1,59 @@
+@keyframes seal-button-fade
+{
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+}
+
+@keyframes seal-button-expand
+{
+    from {height: 100px; width: 100px;}
+    to {height: 150px; width: 150px;}
+}
+
+@keyframes seal-button-shrink
+{
+    from {height: 150px; width: 150px;}
+    to {height: 100px; width: 100px;}
+}
+
+.seal-button
+{
+    position: absolute;
+    top: 50%;
+    right: 47.1%;
+
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: grey;
+}
+
+.seal-button-fade
+{
+    position: absolute;
+    top: 50%;
+    right: 47.1%;
+
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: grey;
+
+    animation-name: seal-button-fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.seal-button:hover
+{
+    animation-name: seal-button-expand;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.seal-button:not(:hover)
+{
+    animation-name: seal-button-shrink;
+    animation-duration: .5s;
+    animation-fill-mode: backwards;
+}

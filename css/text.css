@@ -1,0 +1,33 @@
+@keyframes title-fade
+{
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+}
+
+.title
+{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40pt;
+    background-color: transparent;
+}
+
+.title-fade
+{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40pt;
+    background-color: transparent;
+
+    animation-name: title-fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
