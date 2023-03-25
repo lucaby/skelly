@@ -1,8 +1,4 @@
-@keyframes seal-button-fade
-{
-    from {opacity: 100%;}
-    to {opacity: 0%;}
-}
+@import url(effects.css);
 
 .seal-button
 {
@@ -31,5 +27,5 @@
 
 .seal-button-fade
 {
-    animation: seal-button-fade 1s forwards;
+    animation: fade 1s forwards;
 }
