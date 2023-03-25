@@ -21,3 +21,24 @@
 {
     animation: fadeout 1s forwards;
 }
+
+.title2
+{
+    position: absolute;
+    top: 37%;
+    right: 20%;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40pt;
+    background-color: transparent;
+}
+
+.title2-fadein
+{
+    animation: fadein 2s forwards 2s;
+}
+
+.title2-fadeout
+{
+    animation: fadeout 1s forwards;
+}
