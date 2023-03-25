@@ -7,3 +7,13 @@
     background-color: rgb(27, 148, 255);
     z-index: 0;
 }
+
+.button-chair-fadeout
+{
+    animation: fadeout 1s forwards;
+}
+
+.seal-button-fadein
+{
+    animation: fadein 1s forwards;
+}

@@ -1,3 +1,5 @@
+/* Open & close animations */
+
 @keyframes closing_left
 {
     from {width: 50%;}
@@ -9,6 +11,8 @@
     from {width: 50%;}
     to {width: 0%;}
 }
+
+/* Doors container box */
 
 .doors
 {
@@ -50,4 +54,41 @@
     width: 50%;
     background-color: rgb(255, 194, 80);
     animation: closing_right 1s forwards;
+}
+
+/* Grey button for the doors */
+
+.button-doors
+{
+    position: absolute;
+    top: 60%;
+    right: 50%;
+
+    margin-top: -50px;
+    margin-right: -50px;
+
+    border-radius: 100%;
+    background-color: grey;
+
+    opacity: 100%;
+    height: 100px;
+    width: 100px;
+    transition: width .5s, height .5s, margin .5s;
+}
+
+.button-doors:hover
+{
+    height: 150px;
+    width: 150px;
+    margin: -75px;
+}
+
+.button-doors-fadeout
+{
+    animation: fadeout 1s forwards;
+}
+
+.button-doors-fadein
+{
+    animation: fadein 1s forwards;
 }
