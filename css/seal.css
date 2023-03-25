@@ -25,7 +25,12 @@
     margin: -75px;
 }
 
-.seal-button-fade
+.seal-button-fadeout
 {
-    animation: fade 1s forwards;
+    animation: fadeout 1s forwards;
+}
+
+.seal-button-fadein
+{
+    animation: fadein 1s forwards;
 }

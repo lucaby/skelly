@@ -22,7 +22,6 @@
 {
     height: 100%;
     width: 50%;
-
     background-color: rgb(255, 194, 80);
 }
 
@@ -30,9 +29,7 @@
 {
     height: 100%;
     width: 50%;
-
     background-color: rgb(255, 194, 80);
-
     animation: closing_left 1s forwards;
 }
 
@@ -40,10 +37,8 @@
 {
     position: absolute;
     right: 0px;
-
     height: 100%;
     width: 50%;
-
     background-color: rgb(255, 194, 80);
 }    
 
@@ -51,11 +46,8 @@
 {
     position: absolute;
     right: 0px;
-
     height: 100%;
     width: 50%;
-
     background-color: rgb(255, 194, 80);
-
     animation: closing_right 1s forwards;
 }

@@ -1,8 +1,4 @@
-@keyframes title-fade
-{
-    from {opacity: 100%;}
-    to {opacity: 0%;}
-}
+@import url(effects.css);
 
 .title
 {
@@ -16,7 +12,12 @@
     background-color: transparent;
 }
 
-.title-fade
+.title-fadein
 {
-    animation: title-fade 1s forwards;
+    animation: fadein 2s forwards;
+}
+
+.title-fadeout
+{
+    animation: fadeout 1s forwards;
 }
