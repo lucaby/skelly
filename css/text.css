@@ -36,7 +36,7 @@
 
 .title2-fadein
 {
-    animation: fadein 2s forwards 2s;
+    animation: fadein 2s forwards 1.5s;
 }
 
 .title2-fadeout
