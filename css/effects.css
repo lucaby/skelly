@@ -9,3 +9,9 @@
     from {opacity: 100%;}
     to {opacity: 0%;}
 }
+
+@keyframes dark-transition
+{
+    from {height: 0vh;}
+    to {height: 100vh;}
+}

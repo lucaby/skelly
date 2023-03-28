@@ -1,0 +1,14 @@
+@import url(effects.css);
+
+.dark
+{
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    background-color: rgb(58, 58, 58);
+}
+
+.dark-transition
+{
+    animation: dark-transition 1s forwards;
+}

@@ -36,32 +36,6 @@
     margin: -75px;
 }
 
-/* .button-chair
-{
-    position: absolute;
-    top: 49%;
-    left: 20%;
-
-    margin-top: -150px;
-    margin-right: 50px;
-
-    border-radius: 100%;
-    background-color: grey;
-
-    opacity: 0%;
-    height: 300px;
-    width: 300px;
-    transition: width .5s, height .5s, margin .5s;
-}
-
-.button-chair:hover
-{
-    height: 350px;
-    width: 350px;
-    margin-top: -150px;
-    margin-right: -50px;
-} */
-
 .button-chair-fadeout
 {
     animation: fadeout 1s forwards;
