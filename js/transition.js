@@ -15,6 +15,6 @@ function doors_button_click()
 
 function chair_button_click()
 {
-    document.getElementsByClassName("dark")[0].classList.add("dark-transition");
+    document.getElementsByClassName("dark-down")[0].classList.add("dark-transition-fill");
     setTimeout(() => {window.location.href = "profile.html";}, 1000);
 }

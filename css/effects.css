@@ -10,8 +10,14 @@
     to {opacity: 0%;}
 }
 
-@keyframes dark-transition
+@keyframes dark-transition-fill
 {
     from {height: 0vh;}
     to {height: 100vh;}
+}
+
+@keyframes dark-transition-empty
+{
+    from {height: 100vh;}
+    to {height: 0vh;}
 }

@@ -1,6 +1,6 @@
 @import url(effects.css);
 
-.dark
+.dark-down
 {
     position: absolute;
     top: 0px;
@@ -8,7 +8,16 @@
     background-color: rgb(58, 58, 58);
 }
 
-.dark-transition
+.dark-up
 {
-    animation: dark-transition 1s forwards;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    background-color: rgb(58, 58, 58);
+    animation: dark-transition-empty 1s forwards;
+}
+
+.dark-transition-fill
+{
+    animation: dark-transition-fill 1s forwards;
 }
