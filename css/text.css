@@ -43,3 +43,40 @@
 {
     animation: fadeout 1s forwards;
 }
+
+.description
+{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    width: 70vw;
+}
+
+.name
+{
+    position: relative;
+    top: 30%;
+    width: 70%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30pt;
+}
+
+.about
+{
+    position: relative;
+    top: 30%;
+    width: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20pt;
+}
+
+.title3
+{
+    position: absolute;
+    top: 50%;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30pt;
+    background-color: transparent;
+}
