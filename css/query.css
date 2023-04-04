@@ -1,0 +1,14 @@
+.query
+{
+    display: block;
+    position: absolute;
+    width: 100vw;
+    top: 50%;
+}
+
+.input-skill
+{
+    display: block;
+    position: relative;
+    margin: auto;
+}
